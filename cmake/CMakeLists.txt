@@ -11,6 +11,6 @@ project(Basics)
 include_directories( ./include ./src )
 
 # add the executable
-add_executable(Basics "../src/main.cpp")
+add_executable(Basics "../src/main.cpp" "../src/temp.cpp")
 
 
